@@ -1,0 +1,29 @@
+Time resolution is 1 ps
+TIME=0 | PT=48454c4c4f20574f524c440000000000 | CT=bc2aab09e408011f7021cb8e3c862f8a | RPT=48454c4c4f20574f524c440000000000
+
+
+======================================================
+                 AES SYSTEM OUTPUT                    
+======================================================
+PLAINTEXT               = 48454c4c4f20574f524c440000000000
+KEY                     = 000102030405060708090a0b0c0d0e0f
+------------------------------------------------------
+ENCRYPTION STAGES
+
+SUBBYTES OUTPUT         = 521b2f84b33fd152be6e2f2bfed7ab76
+SHIFTROWS OUTPUT        = 523f2f76b36eab84bed72f52fe1bd12b
+MIXCOLUMNS OUTPUT       = bc2ba90ae00d07187828c185308b2185
+CIPHERTEXT              = bc2aab09e408011f7021cb8e3c862f8a
+------------------------------------------------------
+DECRYPTION STAGES
+
+INVMIXCOLUMNS OUTPUT    = 523f2f76b36eab84bed72f52fe1bd12b
+INVSHIFTROWS OUTPUT     = 521b2f84b33fd152be6e2f2bfed7ab76
+INVSUBBYTES OUTPUT      = 48444e4f4b2551485a454e0b0c0d0e0f
+RECOVERED PLAINTEXT     = 48454c4c4f20574f524c440000000000
+------------------------------------------------------
+RECOVERED ASCII TEXT    = HELLO WORLD     
+======================================================
+
+
+$stop called at time : 170 ns : File "C:/Users/jatin/AES_128_CORE/AES_128_CORE.srcs/sim_1/new/aes_system_tb.v" Line 135

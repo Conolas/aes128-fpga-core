@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Wed May 20 15:00:36 2026
+# Process ID         : 200
+# Current directory  : C:/Users/jatin/aes_decryption/aes_decryption.runs/ila_0_synth_1
+# Command line       : vivado.exe -log ila_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ila_0.tcl
+# Log file           : C:/Users/jatin/aes_decryption/aes_decryption.runs/ila_0_synth_1/ila_0.vds
+# Journal file       : C:/Users/jatin/aes_decryption/aes_decryption.runs/ila_0_synth_1\vivado.jou
+# Running On         : Conolas
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 5 5600H with Radeon Graphics         
+# CPU Frequency      : 3294 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16473 MB
+# Swap memory        : 18253 MB
+# Total Virtual      : 34726 MB
+# Available Virtual  : 6777 MB
+#-----------------------------------------------------------
+source ila_0.tcl -notrace

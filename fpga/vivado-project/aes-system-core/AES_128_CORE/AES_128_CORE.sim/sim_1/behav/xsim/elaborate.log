@@ -1,0 +1,32 @@
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot aes_system_top_tb_behav xil_defaultlib.aes_system_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 128 differs from formal bit length 1 for port 'probe0' [C:/Users/jatin/AES_128_CORE/AES_128_CORE.srcs/sources_1/new/aes_system_top.v:139]
+WARNING: [VRFC 10-3091] actual bit length 128 differs from formal bit length 1 for port 'probe1' [C:/Users/jatin/AES_128_CORE/AES_128_CORE.srcs/sources_1/new/aes_system_top.v:140]
+WARNING: [VRFC 10-3091] actual bit length 128 differs from formal bit length 1 for port 'probe2' [C:/Users/jatin/AES_128_CORE/AES_128_CORE.srcs/sources_1/new/aes_system_top.v:141]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 128 for port 'probe10' [C:/Users/jatin/AES_128_CORE/AES_128_CORE.srcs/sources_1/new/aes_system_top.v:159]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 128 for port 'probe11' [C:/Users/jatin/AES_128_CORE/AES_128_CORE.srcs/sources_1/new/aes_system_top.v:160]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 128 for port 'probe12' [C:/Users/jatin/AES_128_CORE/AES_128_CORE.srcs/sources_1/new/aes_system_top.v:161]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.sbox
+Compiling module xil_defaultlib.subbytes_default
+Compiling module xil_defaultlib.shiftrows
+Compiling module xil_defaultlib.mixcolumns
+Compiling module xil_defaultlib.aes_encrypt_round
+Compiling module xil_defaultlib.InvMixColumns
+Compiling module xil_defaultlib.inv_shiftrows
+Compiling module xil_defaultlib.inv_sbox
+Compiling module xil_defaultlib.inv_subbytes_default
+Compiling module xil_defaultlib.aes_decrypt_round
+Compiling module xil_defaultlib.ila_0
+Compiling module xil_defaultlib.aes_system_top
+Compiling module xil_defaultlib.aes_system_top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot aes_system_top_tb_behav
